@@ -21,8 +21,10 @@ platforms:
 suites:
   - name: default
     run_list:
-#      - recipe[tmi_demo::default]
+      - recipe[osdc-inspec-talk::default]
+#      - recipe[os-hardening]
     verifier:
       inspec_tests:
         - test/smoke/default
+        - https://github.com/dev-sec/linux-baseline
     attributes:
