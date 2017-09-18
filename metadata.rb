@@ -18,5 +18,5 @@ version '0.1.0'
 #
 # source_url 'https://github.com/<insert_org_here>/osdc-inspec-talk' if respond_to?(:source_url)
 
-depends 'os-hardening', '~> 2.0.1'
+depends 'os-hardening'
 
